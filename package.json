@@ -1,8 +1,12 @@
 {
-    "name": "greeter-bot",
+    "name": "1MillionWomenToTech",
     "version": "1.0.0",
-    "description": "My own Discord bot",
+    "description": "1MillionWomenToTech Bot",
     "main": "bot.js",
-    "author": "YOUR-NAME-HERE",
-    "dependencies": {}
-  }
+    "author": "Vera Butler, C Lion",
+    "dependencies": {
+        "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+        "npm": "^6.2.0",
+        "winston": "^3.0.0"
+    }
+}
