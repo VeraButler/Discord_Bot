@@ -17,7 +17,13 @@ bot.on('ready', function (evt) {
     logger.info('Logged in as: ');
     logger.info(bot.username + ' – (' + bot.id + ')');
 });
-
+//create function for bot.sendMessage
+//botMessage = (message) => {
+//    bot.sendMessage({
+//        to: channelID, //       message: message});
+//}
+//list new commands here
+commands =['!test', '!test2']
 bot.on('message', function (user, userID, channelID, message, evt) {
     if (message.substring(0, 1) == '!') {
         var args = message.substring(1).split(' ');
@@ -28,9 +34,13 @@ bot.on('message', function (user, userID, channelID, message, evt) {
         case 'test':
             bot.sendMessage({
             to: channelID,
-            message: 'Greetings! Welcome to the server!'
-});
-break;
+            message: 'Greetings! Welcome to the server!'});
+            break;
+        case 'help':
+            bot.sendMessage({
+            to: channelID,
+            message: 'It is never as easy as it looks.'});
+            break;
 }
 }
 });
