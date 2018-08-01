@@ -31,7 +31,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 
         args = args.splice(1);
         switch(cmd) {
-        case 'test':
+        case 'welcome':
             bot.sendMessage({
             to: channelID,
             message: 'Greetings! Welcome to the server!'});

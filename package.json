@@ -1,9 +1,9 @@
 {
-    "name": "1MillionWomenToTech",
+    "name": "Vera Butler Discord Bot",
     "version": "1.0.0",
-    "description": "1MillionWomenToTech Bot",
+    "description": "Vera Butler Discord Bot",
     "main": "bot.js",
-    "author": "Vera Butler, C Lion",
+    "author": "Vera Butler",
     "dependencies": {
         "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
         "npm": "^6.2.0",
