@@ -1,4 +1,4 @@
-# SoC_Discord_bot
+#Build-a-bot Personal Challenge
 A bot for !prompts on personal Discord channel
 
 ##To start the bot
