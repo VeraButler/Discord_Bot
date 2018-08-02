@@ -1,4 +1,6 @@
-
+$ git status
+#packages and files
 package.json
 node_modules
-./auth.json
+auth.json
+
