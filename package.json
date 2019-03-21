@@ -1,0 +1,11 @@
+{
+    "name": "wgu-it-bot",
+    "version": "1.0.0",
+    "description": "WGU IT Discord helper bot",
+    "main": "bot.js",
+    "author": "Vera Butler",
+    "dependencies": {
+        "discord.io": "^2.5.3",
+        "winston": "^2.4.4"
+    }
+}
