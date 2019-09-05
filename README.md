@@ -1,4 +1,5 @@
-# WGU-IT-BOT
+# This is a bootstrap for any Discord Bot
+This bootstrap was built from scratch using the Discord.js Docs.
 
 ## Getting Started
 [Node.js](https://nodejs.org/en/download/) is required for this bot.
